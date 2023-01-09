@@ -26,7 +26,19 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let mayu = [];
+  let minu = [] ;
+  let final = [];
+  for(let i= 0 ; i < s.lenght ; i++){
+    if (s[i] === s.toUppercase(i) ){
+      mayu = mayu.push(s[i]);
+    }else{
+      minu = minu.push(s[i]);
+    }
+  }
+  final = final.push(...mayu,...minu);
 }
+  
 
 
 function asAmirror(str) {
@@ -35,6 +47,7 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  
 } 
 
 
@@ -50,6 +63,17 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  let nwCad = 0 ;
+  for (let i = 0 ; i < cadena.length ; i++){
+    if (cadena[i] !== "a"|| cadena[i] !== "b" || cadena[i] !== "c" ){
+      nwCad = nwCad.push(cadena[i]) ;
+    }else {
+
+    }
+    
+
+  }
+  return nwCad ;
 }
 
 
