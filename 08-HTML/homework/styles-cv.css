@@ -1,0 +1,242 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(63, 61, 61);
+    background-image: linear-gradient(rgba(75, 67, 67, 0.5), rgba(0, 0, 0, 0.378) 90%),url("https://www.infobae.com/new-resizer/MPWPqZpiYm5_2qeg352Y25t4v6w=/768x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/YHAKDOR3PZBRHCU2BIOX7XPJBA.jpg");
+    background-color: var(--black);
+  
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: var(--code);
+    line-height: 1.5;
+    color: var(--white)
+    
+}
+
+/* header estilos*/
+
+.header2{
+    background-color: rgba(9, 9, 9, 0.592);
+    border-radius: 5px 5px;
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.h1, .p1{
+   color: aliceblue; 
+   text-transform: uppercase;
+   
+   width: 100%;
+   
+   text-align: center;
+   margin: auto;
+}
+
+/* header estilos*/
+
+#contenedor   {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    
+    width: 100%;
+    height: auto;
+    gap: 5%;
+    
+}
+
+
+#contenedor2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    gap: 30px;
+     
+}
+
+#contenedor3 {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+   
+}
+
+
+#titulo{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color:greenyellow;
+    text-transform: uppercase;
+}
+p, li {
+    color: white;
+    list-style-type: none;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
+    width: 100%;
+   
+    margin-bottom: 30px;
+    
+}
+
+.div2-2 {
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    text-align:justify;
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    
+}
+.div2-3{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    text-align: justify;
+    padding: 5%;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+.a1{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(226, 136, 10, 0.878);
+}
+.habilidades{
+    color: rgb(61, 61, 208);
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  @supports(object-fit: cover){
+      .img1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  
+  #div3-1, #div3-2 ,#div3-3, #div3-4, #div3-5,.div2-3, .div2-2{
+    background-color: rgba(9, 9, 9, 0.592);
+    border-radius: 5px 5px;
+}
+
+ #div3-1, #div3-2, #div3-3, #div3-4, #div3-5 {
+    font-size: 20px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    text-align:left;
+    text-align: justify;
+    gap: 10px;
+    
+    
+    width: 100%;
+    height: auto;
+    border: solid;
+    padding: 20px;
+}
+#div3-5{
+    width: 100%;
+    height: auto;
+}
+
+/* iconos barra social*/
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    z-index: 100;
+    
+}
+
+.icon{
+    color:white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+    
+}
+.icon-facebook{
+    background: blue;
+}
+.icon-instagram{
+    background: red;
+}
+.icon-github{
+    background: purple;
+}
+.icon-linkedin2{
+    background: green;
+}
+.icon-youtube{
+    background: red;
+}
+.icon-whatsapp{
+    background: greenyellow;
+}
+
+
+
+.icon:first-child{
+    border-radius: 0.5em 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 0.5em ;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgb(0, 0, 0, 0.42rem);
+}
+/* iconos */
+
